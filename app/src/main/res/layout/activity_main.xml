@@ -46,6 +46,422 @@
             app:layout_constraintTop_toTopOf="parent" />
 
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:id="@+id/header_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/nazwa_header_txt"
+                    android:layout_width="285px"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:text="Nazwa"
+                    android:textSize="60px"
+                    android:padding="8px"
+                    android:layout_marginLeft="15px"
+                    android:layout_marginRight="15px">
+                </TextView>
+                <TextView
+                    android:id="@+id/x_header_txt"
+                    android:layout_width="285px"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:text="Pozycja x"
+                    android:textSize="60px"
+                    android:padding="8px"
+                    android:layout_marginLeft="15px"
+                    android:layout_marginRight="15px">
+                </TextView>
+                <TextView
+                    android:id="@+id/y_header_txt"
+                    android:layout_width="285px"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:text="Pozycja Y"
+                    android:textSize="60px"
+                    android:padding="8px"
+                    android:layout_marginLeft="15px"
+                    android:layout_marginRight="15px">
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/first_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/nazwa_1_txt"
+                    android:layout_width="285px"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:text="Zbąszynek"
+                    android:textSize="50px"
+                    android:padding="8px"
+                    android:layout_marginLeft="15px"
+                    android:layout_marginRight="15px">
+                </TextView>
+                <TextView
+                    android:id="@+id/x_1_txt"
+                    android:layout_width="285px"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:text="45"
+                    android:textSize="50px"
+                    android:padding="8px"
+                    android:layout_marginLeft="15px"
+                    android:layout_marginRight="15px">
+                </TextView>
+                <TextView
+                    android:id="@+id/y_1_txt"
+                    android:layout_width="285px"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:text="85"
+                    android:textSize="50px"
+                    android:padding="8px"
+                    android:layout_marginLeft="15px"
+                    android:layout_marginRight="15px">
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/second_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/nazwa_2_txt"
+                    android:layout_width="285px"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:text="Kraków"
+                    android:textSize="50px"
+                    android:padding="8px"
+                    android:layout_marginLeft="15px"
+                    android:layout_marginRight="15px">
+                </TextView>
+                <TextView
+                    android:id="@+id/x_2_txt"
+                    android:layout_width="285px"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:text="25"
+                    android:textSize="50px"
+                    android:padding="8px"
+                    android:layout_marginLeft="15px"
+                    android:layout_marginRight="15px">
+                </TextView>
+                <TextView
+                    android:id="@+id/y_2_txt"
+                    android:layout_width="285px"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:text="73"
+                    android:textSize="50px"
+                    android:padding="8px"
+                    android:layout_marginLeft="15px"
+                    android:layout_marginRight="15px">
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/third_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/nazwa_3_txt"
+                    android:layout_width="285px"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:text="Gdynia"
+                    android:textSize="50px"
+                    android:padding="8px"
+                    android:layout_marginLeft="15px"
+                    android:layout_marginRight="15px">
+                </TextView>
+                <TextView
+                    android:id="@+id/x_3_txt"
+                    android:layout_width="285px"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:text="14"
+                    android:textSize="50px"
+                    android:padding="8px"
+                    android:layout_marginLeft="15px"
+                    android:layout_marginRight="15px">
+                </TextView>
+                <TextView
+                    android:id="@+id/y_3_txt"
+                    android:layout_width="285px"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:text="120"
+                    android:textSize="50px"
+                    android:padding="8px"
+                    android:layout_marginLeft="15px"
+                    android:layout_marginRight="15px">
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/fourth_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/nazwa_4_txt"
+                    android:layout_width="285px"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="50px"
+                    android:padding="8px"
+                    android:layout_marginLeft="15px"
+                    android:layout_marginRight="15px">
+                </TextView>
+                <TextView
+                    android:id="@+id/x_4_txt"
+                    android:layout_width="285px"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="50px"
+                    android:padding="8px"
+                    android:layout_marginLeft="15px"
+                    android:layout_marginRight="15px">
+                </TextView>
+                <TextView
+                    android:id="@+id/y_4_txt"
+                    android:layout_width="285px"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="50px"
+                    android:padding="8px"
+                    android:layout_marginLeft="15px"
+                    android:layout_marginRight="15px">
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/fifth_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/nazwa_5_txt"
+                    android:layout_width="285px"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="50px"
+                    android:padding="8px"
+                    android:layout_marginLeft="15px"
+                    android:layout_marginRight="15px">
+                </TextView>
+                <TextView
+                    android:id="@+id/x_5_txt"
+                    android:layout_width="285px"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="50px"
+                    android:padding="8px"
+                    android:layout_marginLeft="15px"
+                    android:layout_marginRight="15px">
+                </TextView>
+                <TextView
+                    android:id="@+id/y_5_txt"
+                    android:layout_width="285px"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="50px"
+                    android:padding="8px"
+                    android:layout_marginLeft="15px"
+                    android:layout_marginRight="15px">
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/sixth_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/nazwa_6_txt"
+                    android:layout_width="285px"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="50px"
+                    android:padding="8px"
+                    android:layout_marginLeft="15px"
+                    android:layout_marginRight="15px">
+                </TextView>
+                <TextView
+                    android:id="@+id/x_6_txt"
+                    android:layout_width="285px"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="50px"
+                    android:padding="8px"
+                    android:layout_marginLeft="15px"
+                    android:layout_marginRight="15px">
+                </TextView>
+                <TextView
+                    android:id="@+id/y_6_txt"
+                    android:layout_width="285px"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="50px"
+                    android:padding="8px"
+                    android:layout_marginLeft="15px"
+                    android:layout_marginRight="15px">
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/seventh_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/nazwa_7_txt"
+                    android:layout_width="285px"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="50px"
+                    android:padding="8px"
+                    android:layout_marginLeft="15px"
+                    android:layout_marginRight="15px">
+                </TextView>
+                <TextView
+                    android:id="@+id/x_7_txt"
+                    android:layout_width="285px"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="50px"
+                    android:padding="8px"
+                    android:layout_marginLeft="15px"
+                    android:layout_marginRight="15px">
+                </TextView>
+                <TextView
+                    android:id="@+id/y_7_txt"
+                    android:layout_width="285px"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="50px"
+                    android:padding="8px"
+                    android:layout_marginLeft="15px"
+                    android:layout_marginRight="15px">
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/eigth_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/nazwa_8_txt"
+                    android:layout_width="285px"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="50px"
+                    android:padding="8px"
+                    android:layout_marginLeft="15px"
+                    android:layout_marginRight="15px">
+                </TextView>
+                <TextView
+                    android:id="@+id/x_8_txt"
+                    android:layout_width="285px"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="50px"
+                    android:padding="8px"
+                    android:layout_marginLeft="15px"
+                    android:layout_marginRight="15px">
+                </TextView>
+                <TextView
+                    android:id="@+id/y_8_txt"
+                    android:layout_width="285px"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textSize="50px"
+                    android:padding="8px"
+                    android:layout_marginLeft="15px"
+                    android:layout_marginRight="15px">
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -55,21 +471,22 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintTop_toTopOf="parent"
+            android:gravity="bottom">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/dodaj_btn"
                 android:layout_width="450px"
                 android:layout_height="200px"
                 android:layout_marginLeft="25px"
                 android:layout_marginRight="85px"
-                android:text="Button" />
+                android:text="Dodaj" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/szukanie_btn"
                 android:layout_width="450px"
                 android:layout_height="200px"
-                android:text="Button" />
+                android:text="Znajdź Drogę" />
         </LinearLayout>
     </LinearLayout>
 
